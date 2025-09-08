@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Imobiliária Salves — IMOBILIARIA SALVES LTDA (CNPJ 55.336.929/0001-88)</title>
+  <meta name="description" content="Página informativa para IMOBILIARIA SALVES LTDA (CNPJ 55.336.929/0001-88). Contato, endereço, atividades e downloads." />
+  <style>
+    :root{--bg:#f6f7fb;--card:#fff;--muted:#666;--accent:#0b6efd}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:#111;margin:0;padding:20px}
+    .container{max-width:980px;margin:0 auto}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#fff,#f3f8ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)}
+    h1{font-size:20px;margin:0}
+    .subtitle{color:var(--muted);font-size:13px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(20,30,60,0.06)}
+    .field{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px dashed #eee}
+    .field:last-child{border-bottom:0}
+    .label{color:var(--muted);font-size:13px}
+    .value{font-weight:600}
+    .buttons{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+    button{border:0;background:#f1f5ff;padding:8px 10px;border-radius:8px;cursor:pointer}
+    button.primary{background:var(--accent);color:white}
+    pre{background:#0f1724;color:#dbeafe;padding:12px;border-radius:8px;overflow:auto}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+    .chip{display:inline-block;padding:6px 8px;border-radius:999px;background:#f3f4f6;margin-right:6px;font-size:12px}
+    .json-view{white-space:pre-wrap;word-break:break-word;font-family:monospace;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">SV</div>
+      <div>
+        <h1>Imobiliária Salves — IMOBILIARIA SALVES LTDA</h1>
+        <div class="subtitle">CNPJ: <strong>55.336.929/0001-88</strong> — Santa Bárbara D'Oeste / SP</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card" id="basic-info">
+          <h2>Dados principais</h2>
+          <div class="field"><div class="label">Razão social</div><div class="value">IMOBILIARIA SALVES LTDA</div></div>
+          <div class="field"><div class="label">Nome fantasia</div><div class="value">—</div></div>
+          <div class="field"><div class="label">CNPJ</div><div class="value" id="cnpj">55.336.929/0001-88</div></div>
+          <div class="field"><div class="label">Situação cadastral</div><div class="value">ATIVA (desde 03/11/2005)</div></div>
+          <div class="field"><div class="label">Data de abertura</div><div class="value">27/02/1987</div></div>
+          <div class="field"><div class="label">Capital social</div><div class="value">R$ 5.000,00</div></div>
+
+          <div style="margin-top:12px" class="small">Fontes dos dados: Receita e agregadores públicos (consulta em 09/08/2025).</div>
+
+          <div class="buttons">
+            <button onclick="copyToClipboard(document.getElementById('cnpj').textContent)">Copiar CNPJ</button>
+            <button onclick="toggleJSON()">Mostrar JSON</button>
+            <button onclick="downloadVCard()">Baixar vCard</button>
+            <button class="primary" onclick="print()">Imprimir</button>
+          </div>
+
+        </section>
+
+        <section class="card" id="activities" style="margin-top:12px">
+          <h2>Atividades / CNAE</h2>
+          <div class="chip">68.22-6-00 — Gestão e Administração da Propriedade Imobiliária</div>
+          <div class="chip">68.21-8-02 — Corretagem no aluguel de imóveis</div>
+          <div class="chip">68.21-8-01 — Corretagem na compra e venda e avaliação de imóveis</div>
+          <div style="margin-top:12px;color:var(--muted)">Opção pelo Simples: <strong>Sim</strong> (informações em bases públicas)</div>
+        </section>
+
+        <section class="card" id="raw-sources" style="margin-top:12px">
+          <h2>Links e fontes</h2>
+          <p class="small">Página demonstrativa com dados públicos. Para confirmar, consulte a Receita Federal ou as bases oficiais listadas.</p>
+          <div class="buttons">
+            <a href="https://www.google.com/search?q=55336929000188" target="_blank"><button>Pesquisar CNPJ</button></a>
+            <a href="https://casadosdados.com.br/solucao/cnpj/imobiliaria-salves-ltda-55336929000188" target="_blank"><button>Consultar (CasaDosDados)</button></a>
+            <a href="https://www.econodata.com.br/consulta-empresa/55336929000188-imobiliaria-salves-ltda" target="_blank"><button>Consultar (Econodata)</button></a>
+            <a href="https://cnpj.biz/55336929000188" target="_blank"><button>Consultar (CNPJ.BIZ)</button></a>
+          </div>
+        </section>
+
+        <section class="card" id="notes" style="margin-top:12px">
+          <h2>Observações</h2>
+          <ul>
+            <li class="small">Alguns agregadores podem exibir contatos/endereços ligeiramente diferentes — sempre verifique a fonte oficial.</li>
+            <li class="small">Use os botões acima para copiar CNPJ, baixar vCard e abrir consultas em agregadores.</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Contato</h3>
+          <div class="field"><div class="label">Telefone</div><div class="value"><a href="tel:+551934759970">(19) 3475-9970</a></div></div>
+          <div class="field"><div class="label">Telefone 2</div><div class="value"><a href="tel:+551934759978">(19) 3475-9978</a></div></div>
+          <div class="field"><div class="label">Email</div><div class="value"><a href="mailto:juridico@novaamerica.net">juridico@novaamerica.net</a></div></div>
+
+          <h3 style="margin-top:12px">Endereço</h3>
+          <div class="small">RUA DO COURO, 909 — Cidade Nova, Santa Bárbara D'Oeste — SP — CEP 13454-180</div>
+
+          <div class="buttons" style="margin-top:12px">
+            <button onclick="openMaps()">Ver rota</button>
+            <button onclick="openWhatsapp()">Abrir WhatsApp</button>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Dados estruturados</h3>
+          <div class="json-view" id="jsonBlock"></div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Gerado: página demonstrativa com dados públicos. Verifique sempre nas fontes oficiais antes de decisões legais/financeiras.
+    </footer>
+  </div>
+
+  <script>
+    // Dados embutidos (extraídos de bases públicas)
+    const company = {
+      razao_social: "IMOBILIARIA SALVES LTDA",
+      nome_fantasia: "",
+      cnpj: "55.336.929/0001-88",
+      situacao: "ATIVA",
+      data_situacao: "03/11/2005",
+      abertura: "27/02/1987",
+      capital: "R$ 5.000,00",
+      simples: true,
+      cnaes: ["6822600","6821802","6821801"],
+      telefones: ["+55 19 3475-9970","+55 19 3475-9978"],
+      email: "juridico@novaamerica.net",
+      endereco: {
+        logradouro: "RUA DO COURO",
+        numero: "909",
+        bairro: "CIDADE NOVA",
+        municipio: "SANTA BARBARA D'OESTE",
+        estado: "SP",
+        cep: "13454-180"
+      }
+    };
+
+    // Render JSON view
+    function toggleJSON(){
+      const jb = document.getElementById('jsonBlock');
+      if(jb.textContent.trim()){
+        jb.textContent = '';
+        return;
+      }
+      jb.textContent = JSON.stringify(company, null, 2);
+      document.getElementById('jsonBlock').scrollIntoView({behavior:'smooth'});
+    }
+
+    // Copy helper
+    function copyToClipboard(text){
+      navigator.clipboard.writeText(text).then(()=>{
+        alert('Copiado: '+text);
+      }, ()=> alert('Falha ao copiar'));
+    }
+
+    // vCard download
+    function downloadVCard(){
+      const v = `BEGIN:VCARD\nVERSION:3.0\nFN:Imobiliaria Salves\nORG:${company.razao_social}\nTEL;TYPE=WORK,VOICE:${company.telefones[0]}\nTEL;TYPE=WORK,VOICE:${company.telefones[1]}\nEMAIL;TYPE=PREF,INTERNET:${company.email}\nADR;TYPE=WORK:;;${company.endereco.logradouro} ${company.endereco.numero};${company.endereco.bairro};${company.endereco.municipio};${company.endereco.estado};${company.endereco.cep};\nNOTE:CNPJ ${company.cnpj}\nEND:VCARD`;
+      const blob = new Blob([v],{type:'text/vcard'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = `Imobiliaria_Salves.vcf`; document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    // Open Google Maps
+    function openMaps(){
+      const e = company.endereco;
+      const q = encodeURIComponent(`${e.logradouro} ${e.numero}, ${e.bairro}, ${e.municipio} ${e.estado} ${e.cep}`);
+      window.open(`https://www.google.com/maps/search/?api=1&query=${q}`,'_blank');
+    }
+
+    function openWhatsapp(){
+      const phone = company.telefones[0].replace(/\D/g,'');
+      window.open(`https://wa.me/${phone}`,'_blank');
+    }
+
+    // insert JSON-LD structured data for search engines
+    (function(){
+      const ld = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": company.nome_fantasia || company.razao_social,
+        "legalName": company.razao_social,
+        "telephone": company.telefones[0],
+        "email": company.email,
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": company.endereco.logradouro + ", " + company.endereco.numero,
+          "addressLocality": company.endereco.municipio,
+          "addressRegion": company.endereco.estado,
+          "postalCode": company.endereco.cep,
+          "addressCountry": "BR"
+        }
+      };
+      const s = document.createElement('script'); s.type='application/ld+json'; s.textContent = JSON.stringify(ld);
+      document.head.appendChild(s);
+    })();
+
+    // keyboard shortcut J to toggle JSON
+    document.addEventListener('keydown', (e)=>{ if(e.key.toLowerCase()==='j') toggleJSON(); });
+  </script>
+</body>
+</html>
